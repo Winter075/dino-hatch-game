@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Ikan -->
+  <path d="M150,100 Q120,52 70,60 Q34,66 30,100 Q34,134 70,140 Q120,148 150,100 Z"
+        fill="#4fc3f7" stroke="#0277bd" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Ekor -->
+  <path d="M148,100 L186,64 Q176,100 186,136 Z" fill="#29b6f6" stroke="#0277bd" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Sirip atas -->
+  <path d="M92,64 Q104,34 128,52 Q110,58 108,68 Z" fill="#29b6f6" stroke="#0277bd" stroke-width="4"/>
+  <!-- Sirip bawah -->
+  <path d="M92,136 Q100,162 122,150 Q106,146 106,134 Z" fill="#29b6f6" stroke="#0277bd" stroke-width="4"/>
+  <!-- Sisik -->
+  <g fill="none" stroke="#b3e5fc" stroke-width="4">
+    <path d="M70,74 q14,10 0,20"/>
+    <path d="M92,76 q14,12 0,24"/>
+    <path d="M70,110 q14,10 0,20"/>
+    <path d="M92,112 q14,12 0,24"/>
+  </g>
+  <!-- Mata -->
+  <circle cx="56" cy="92" r="12" fill="#fff" stroke="#0277bd" stroke-width="3"/>
+  <circle cx="54" cy="92" r="5.5" fill="#263238"/>
+  <circle cx="56" cy="89" r="2.5" fill="#fff"/>
+  <!-- Mulut -->
+  <path d="M32,108 Q44,116 54,108" fill="none" stroke="#0277bd" stroke-width="4" stroke-linecap="round"/>
+  <!-- Gelembung -->
+  <circle cx="26" cy="56" r="7" fill="none" stroke="#b3e5fc" stroke-width="3"/>
+  <circle cx="14" cy="40" r="4" fill="none" stroke="#b3e5fc" stroke-width="2"/>
+</svg>

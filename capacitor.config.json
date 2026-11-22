@@ -1,0 +1,14 @@
+{
+  "appId": "com.edukasi.dinohatch",
+  "appName": "Dino Hatch",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "ScreenOrientation": {
+      "orientation": "landscape"
+    }
+  }
+}

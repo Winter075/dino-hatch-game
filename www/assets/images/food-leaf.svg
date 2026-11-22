@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Daun -->
+  <path d="M100,180 Q30,150 30,88 Q30,38 100,22 Q170,38 170,88 Q170,150 100,180 Z"
+        fill="#66bb6a" stroke="#2e7d32" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M100,180 Q96,100 100,26" fill="none" stroke="#2e7d32" stroke-width="5" stroke-linecap="round"/>
+  <g fill="none" stroke="#2e7d32" stroke-width="4" stroke-linecap="round">
+    <path d="M100,64 Q70,50 52,64"/>
+    <path d="M100,64 Q130,50 148,64"/>
+    <path d="M100,104 Q66,90 46,106"/>
+    <path d="M100,104 Q134,90 154,106"/>
+    <path d="M100,142 Q72,128 54,144"/>
+    <path d="M100,142 Q128,128 146,144"/>
+  </g>
+  <path d="M64,56 Q54,80 62,104" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+</svg>

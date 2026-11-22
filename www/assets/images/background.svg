@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fc3e8"/>
+      <stop offset="1" stop-color="#dff5ff"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd46a"/>
+      <stop offset="1" stop-color="#4fae4a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#sky)"/>
+
+  <!-- Matahari -->
+  <g transform="translate(1080,130)">
+    <g stroke="#ffd54f" stroke-width="10" stroke-linecap="round">
+      <line x1="0" y1="-95" x2="0" y2="-70"/>
+      <line x1="0" y1="95" x2="0" y2="70"/>
+      <line x1="-95" y1="0" x2="-70" y2="0"/>
+      <line x1="95" y1="0" x2="70" y2="0"/>
+      <line x1="-67" y1="-67" x2="-50" y2="-50"/>
+      <line x1="67" y1="67" x2="50" y2="50"/>
+      <line x1="-67" y1="67" x2="-50" y2="50"/>
+      <line x1="67" y1="-67" x2="50" y2="-50"/>
+    </g>
+    <circle r="58" fill="#ffe082" stroke="#fff" stroke-width="8"/>
+  </g>
+
+  <!-- Awan -->
+  <g fill="#ffffff" opacity="0.92">
+    <g transform="translate(180,150)">
+      <ellipse cx="0" cy="0" rx="62" ry="38"/>
+      <ellipse cx="58" cy="10" rx="50" ry="30"/>
+      <ellipse cx="-56" cy="12" rx="46" ry="28"/>
+    </g>
+    <g transform="translate(560,95) scale(0.8)">
+      <ellipse cx="0" cy="0" rx="62" ry="38"/>
+      <ellipse cx="58" cy="10" rx="50" ry="30"/>
+      <ellipse cx="-56" cy="12" rx="46" ry="28"/>
+    </g>
+    <g transform="translate(860,220) scale(0.65)">
+      <ellipse cx="0" cy="0" rx="62" ry="38"/>
+      <ellipse cx="58" cy="10" rx="50" ry="30"/>
+      <ellipse cx="-56" cy="12" rx="46" ry="28"/>
+    </g>
+  </g>
+
+  <!-- Gunung / bukit jauh -->
+  <path d="M0,520 Q160,400 320,500 Q470,380 640,490 Q800,370 970,480 Q1120,400 1280,500 L1280,720 L0,720 Z" fill="#9ccc8f"/>
+  <path d="M0,560 Q200,470 380,545 Q560,455 760,540 Q960,460 1140,545 Q1210,510 1280,545 L1280,720 L0,720 Z" fill="#7bc06b"/>
+
+  <!-- Gunung berapi kecil -->
+  <path d="M1010,545 L1080,420 L1095,420 L1165,545 Z" fill="#8a7a72"/>
+  <path d="M1080,420 L1095,420 L1100,402 L1075,402 Z" fill="#6d5f59"/>
+  <path d="M1078,402 q10,-26 4,-44 q16,16 10,40 z" fill="#ff8a65" opacity="0.85"/>
+
+  <!-- Padang rumput -->
+  <path d="M0,590 Q320,560 640,592 Q960,552 1280,590 L1280,720 L0,720 Z" fill="url(#grass)"/>
+
+  <!-- Pakis / tumbuhan prasejarah -->
+  <g fill="#2e8b3d">
+    <g transform="translate(120,600)">
+      <path d="M0,40 Q-70,-10 -90,-70 Q-30,-40 0,20 Q30,-40 90,-70 Q70,-10 0,40 Z"/>
+      <path d="M0,50 Q-40,0 -50,-50 Q-12,-18 0,28 Q12,-18 50,-50 Q40,0 0,50 Z"/>
+    </g>
+    <g transform="translate(1190,606) scale(0.9)">
+      <path d="M0,40 Q-70,-10 -90,-70 Q-30,-40 0,20 Q30,-40 90,-70 Q70,-10 0,40 Z"/>
+      <path d="M0,50 Q-40,0 -50,-50 Q-12,-18 0,28 Q12,-18 50,-50 Q40,0 0,50 Z"/>
+    </g>
+    <g transform="translate(300,604) scale(0.55)">
+      <path d="M0,40 Q-70,-10 -90,-70 Q-30,-40 0,20 Q30,-40 90,-70 Q70,-10 0,40 Z"/>
+    </g>
+    <g transform="translate(1000,600) scale(0.55)">
+      <path d="M0,40 Q-70,-10 -90,-70 Q-30,-40 0,20 Q30,-40 90,-70 Q70,-10 0,40 Z"/>
+    </g>
+  </g>
+
+  <!-- Bunga kecil -->
+  <g>
+    <g transform="translate(220,650)"><circle r="7" fill="#ffd54f"/><circle cx="12" r="6" fill="#fff"/><circle cx="-12" r="6" fill="#fff"/><circle cy="12" r="6" fill="#fff"/><circle cy="-12" r="6" fill="#fff"/></g>
+    <g transform="translate(1090,660) scale(0.8)"><circle r="7" fill="#ff8a65"/><circle cx="12" r="6" fill="#fff"/><circle cx="-12" r="6" fill="#fff"/><circle cy="12" r="6" fill="#fff"/><circle cy="-12" r="6" fill="#fff"/></g>
+  </g>
+</svg>

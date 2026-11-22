@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#7ec8e3" />
+  <title>Dino Hatch — Seru Menetas!</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Pesan orientasi: minta anak memutar perangkat ke landscape -->
+  <div id="rotate-hint" aria-hidden="true">
+    <div class="rotate-icon">🔄</div>
+    <p>Putar perangkat ke samping ya!</p>
+  </div>
+
+  <main id="game" role="application" aria-label="Game menetas dinosaurus">
+    <!-- Latar alam prasejarah -->
+    <div id="background" class="background"></div>
+
+    <!-- Layar mulai: ketuk untuk mengaktifkan audio (autoplay policy) -->
+    <section id="start-screen" class="scene active">
+      <div class="start-card">
+        <div class="start-egg">🥚</div>
+        <h1 class="title">DINO<br />HATCH!</h1>
+        <button id="start-btn" class="big-btn start-btn" type="button">KETUK UNTUK MULAI</button>
+      </div>
+    </section>
+
+    <!-- Adegan 1: ketuk telur -->
+    <section id="egg-scene" class="scene">
+      <div class="scene-prompt">KETUK TELURNYA! 👆</div>
+      <div id="egg" class="egg" role="button" tabindex="0" aria-label="Ketuk telur">
+        <img id="egg-img" src="assets/images/egg-0.svg" alt="Telur dinosaurus" draggable="false" />
+      </div>
+      <div class="tap-dots" id="tap-dots" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <!-- Adegan 2: menetas & perkenalan -->
+    <section id="hatch-scene" class="scene">
+      <div id="dino-hatch" class="dino dino-hatch"></div>
+      <div class="name-plate">
+        <span class="name-label">Halo, aku</span>
+        <span id="dino-name" class="dino-name">T-Rex!</span>
+      </div>
+    </section>
+
+    <!-- Adegan 3: beri makan -->
+    <section id="feed-scene" class="scene">
+      <div class="scene-prompt">PILIH MAKANANNYA! 🍽️</div>
+      <div id="dino-feed" class="dino dino-feed"></div>
+      <div id="food-buttons" class="food-buttons"></div>
+      <button id="continue-btn" class="big-btn continue-btn hidden" type="button">LANJUT ▶</button>
+    </section>
+  </main>
+
+  <script src="js/dinoData.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gameScene.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <!-- Ekor -->
+  <path d="M110,240 Q30,236 24,180 Q56,212 114,206 Z" fill="#fb8c00" stroke="#e65100" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Kaki -->
+  <ellipse cx="142" cy="286" rx="27" ry="20" fill="#ef6c00" stroke="#e65100" stroke-width="5"/>
+  <ellipse cx="206" cy="286" rx="27" ry="20" fill="#ef6c00" stroke="#e65100" stroke-width="5"/>
+  <path d="M122,292 l-8,10 M142,296 l0,10 M162,292 l8,10 M186,292 l-8,10 M206,296 l0,10 M226,292 l8,10"
+        stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <!-- Tubuh -->
+  <ellipse cx="170" cy="220" rx="78" ry="78" fill="#fb8c00" stroke="#e65100" stroke-width="5"/>
+  <ellipse cx="170" cy="234" rx="50" ry="54" fill="#fff3c4"/>
+  <!-- Kaki depan -->
+  <ellipse cx="112" cy="248" rx="17" ry="26" fill="#ef6c00" stroke="#e65100" stroke-width="4" transform="rotate(18 112 248)"/>
+  <ellipse cx="228" cy="248" rx="17" ry="26" fill="#ef6c00" stroke="#e65100" stroke-width="4" transform="rotate(-18 228 248)"/>
+
+  <!-- Leher/frill (lingkaran kerah di belakang kepala) -->
+  <path d="M170,52 C90,52 60,110 78,160 C100,130 132,118 170,118 C208,118 240,130 262,160 C280,110 250,52 170,52 Z"
+        fill="#ffb74d" stroke="#e65100" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Tiga tanduk di frill -->
+  <g fill="#fff8e1" stroke="#e65100" stroke-width="3">
+    <path d="M92,86 L62,42 L108,70 Z"/>
+    <path d="M170,54 L170,16 L188,56 Z"/>
+    <path d="M248,86 L278,42 L232,70 Z"/>
+  </g>
+  <!-- titik hias frill -->
+  <g fill="#f57c00">
+    <circle cx="104" cy="120" r="6"/><circle cx="236" cy="120" r="6"/>
+    <circle cx="128" cy="80" r="5"/><circle cx="212" cy="80" r="5"/>
+  </g>
+
+  <!-- Kepala -->
+  <ellipse cx="170" cy="142" rx="66" ry="56" fill="#fb8c00" stroke="#e65100" stroke-width="5"/>
+  <!-- Tanduk hidung -->
+  <path d="M170,118 L162,96 L178,96 Z" fill="#fff8e1" stroke="#e65100" stroke-width="3"/>
+  <!-- Moncong -->
+  <ellipse cx="170" cy="168" rx="40" ry="24" fill="#ffb74d" stroke="#e65100" stroke-width="4"/>
+  <path d="M146,176 Q170,192 194,176" fill="none" stroke="#bf360c" stroke-width="4" stroke-linecap="round"/>
+  <!-- Mata -->
+  <circle cx="144" cy="130" r="16" fill="#fff" stroke="#e65100" stroke-width="3"/>
+  <circle cx="196" cy="130" r="16" fill="#fff" stroke="#e65100" stroke-width="3"/>
+  <circle cx="147" cy="131" r="7.5" fill="#263238"/>
+  <circle cx="199" cy="131" r="7.5" fill="#263238"/>
+  <circle cx="149" cy="128" r="3" fill="#fff"/>
+  <circle cx="201" cy="128" r="3" fill="#fff"/>
+  <!-- Pipi -->
+  <ellipse cx="124" cy="152" rx="10" ry="7" fill="#ff8a80" opacity="0.7"/>
+  <ellipse cx="216" cy="152" rx="10" ry="7" fill="#ff8a80" opacity="0.7"/>
+</svg>

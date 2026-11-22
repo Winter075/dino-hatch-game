@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300">
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff9e6"/>
+      <stop offset="1" stop-color="#f3d9a4"/>
+    </linearGradient>
+  </defs>
+  <path d="M120,18 C70,18 38,120 38,190 C38,255 75,288 120,288 C165,288 202,255 202,190 C202,120 170,18 120,18 Z"
+        fill="url(#shell)" stroke="#c9a462" stroke-width="5"/>
+  <!-- bintik -->
+  <g fill="#e7c179" opacity="0.85">
+    <ellipse cx="86" cy="120" rx="11" ry="14"/>
+    <ellipse cx="150" cy="100" rx="9" ry="12"/>
+    <ellipse cx="120" cy="165" rx="13" ry="16"/>
+    <ellipse cx="74" cy="205" rx="10" ry="13"/>
+    <ellipse cx="162" cy="200" rx="12" ry="15"/>
+    <ellipse cx="110" cy="240" rx="9" ry="11"/>
+  </g>
+  <!-- kilau -->
+  <path d="M78,80 Q66,120 66,160" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity="0.75"/>
+</svg>
